@@ -1,4 +1,6 @@
-﻿namespace Nolab_RpsGameApp_MauiApp
+﻿using Ispan_XAMLUI_MauiApp;
+
+namespace Nolab_RpsGameApp_MauiApp
 {
     public partial class App : Application
     {
@@ -6,9 +8,9 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            //MainPage = new AppShell();
 
-            //MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }
