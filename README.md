@@ -5,7 +5,7 @@
 ![](https://i.imgur.com/wmfFIYy.png)
 ### Hyper要win10專業版以上才有，沒有的話要下載haxm:
 https://github.com/intel/haxm/releases
-### 3.下載Android手機模擬器
+### 3.visual studio下載Android手機模擬器
 
 
 ## 致謝
