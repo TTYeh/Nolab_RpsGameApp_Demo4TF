@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nolab_GAgame_practice.MainPage">
+
+    <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+        <Label
+                x:Name="labelScore"
+                Text="得分 0 分"
+                FontSize="32"
+                HorizontalOptions="Center" />
+        <StackLayout
+                Orientation="Horizontal"
+                HorizontalOptions="Center">
+            <Button
+                    Text="剪刀"
+                    Clicked="Scissors_clicked"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="50"
+                    VerticalOptions="FillAndExpand" />
+            <Button
+                    Text="石頭"
+                    Clicked="Rock_clicked"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+            <Button
+                    Text="布"
+                    Clicked="Paper_clicked"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+        </StackLayout>
+        <Label
+                x:Name="gameResult"
+                Text="準備開始比賽"
+                FontSize="32"
+                HorizontalOptions="Center" />
+        <StackLayout
+                Orientation="Horizontal"
+                HorizontalOptions="Center">
+            <Image
+                x:Name ="userImg"
+                Source="user.png"
+                SemanticProperties.Description="Cute user!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            <Image
+                x:Name ="ComputerImg"
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>
