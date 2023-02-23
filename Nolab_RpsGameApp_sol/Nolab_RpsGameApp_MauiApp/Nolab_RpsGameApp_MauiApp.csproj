@@ -60,4 +60,10 @@
 	  <Folder Include="MyImg\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="GamePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
