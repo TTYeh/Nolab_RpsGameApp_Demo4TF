@@ -10,3 +10,4 @@ https://github.com/intel/haxm/releases
 
 ## 致謝
 ### 謝謝屏東大學應用物理系許教授提供app參考書
+### 謝謝AllenKuo的作業
